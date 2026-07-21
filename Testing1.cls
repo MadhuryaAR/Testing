@@ -1,6 +1,6 @@
 public class CB24_800Lines_CleanLateReference {
     public Integer process() {
-        Integer myExcessivelyLongVariableWithVeryLateFinalReference = 1;
+        Integer myVal = 1;
         Integer amt1 = 1;
         Integer tax1 = amt1 * 5 / 100;
         Integer sum1 = amt1 + tax1;
@@ -694,7 +694,8 @@ public class CB24_800Lines_CleanLateReference {
         Integer sum173 = amt173 + tax173;
         System.debug(sum173);
         System.debug(sum198);
-        myExcessivelyLongVariableWithVeryLateFinalReference++;
-        return myExcessivelyLongVariableWithVeryLateFinalReference;
+        myVal++;
+        return myVal;
     }
 }
+
