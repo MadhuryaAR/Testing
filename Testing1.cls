@@ -2,6 +2,7 @@ public class Test8 {
     public void method() {
         int a = 1;
         int b = 2;
+        int m = 2;
 
         if (a > 0) {
             int c = 3;
