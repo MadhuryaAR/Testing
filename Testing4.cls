@@ -694,5 +694,4 @@ public class CB24_800Lines_CleanLateReference {
         System.debug(sum173);
         System.debug(sum198);
     }
-    private String reportName;
 }
