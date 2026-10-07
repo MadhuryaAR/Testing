@@ -3,5 +3,4 @@ public class MergeDemo {
     public void b() { System.debug('b'); }                                 // issue 2 → False Positive
     public void c() { System.debug('c'); }                                 // issue 3 → Confirm
     public void d() { System.debug('d'); }                                 // issue 4 → Exception
-    public void e() { try { Integer x = 1; } catch (Exception ex) { } }    // issue 5 → fixed inside the PR
 }
