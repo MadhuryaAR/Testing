@@ -4,8 +4,6 @@ public class SampleClass {
     private String usedName = 'John';
 
     // Unused variables
-    private String unusedName = 'Doe';
-    private Integer unusedNumber = 100;
     private Boolean unusedFlag = true;
 
     public void doSomething() {
