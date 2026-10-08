@@ -2,8 +2,6 @@ public class SampleClassLatestNew {
 
     // Used variable
     private String usedName = 'John';
-    private String name_x = 'wertyui';
-
 
 
     public void doSomething() {
