@@ -2,7 +2,13 @@ public class SampleClassLatestNew {
 
     // Used variable
     private String usedName = 'John';
-    private String usedName1 = 'John';
+    
+    private String usedName2 = 'John';
+    private String usedName3 = 'John';
+    private String usedName4 = 'John';
+    private String usedName5 = 'John';
+
+
 
 
     public void doSomething() {
