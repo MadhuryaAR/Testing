@@ -8,6 +8,11 @@ public class SampleClassLatestNew {
 
     public void doSomething() {
         String localUsedVariable = usedName;
+        private String usedName1 = 'John';
+        private String usedName2 = 'John';
+        private String usedName3 = 'John';
+        private String usedName4 = 'John';
+        private String usedName5 = 'John';
 
         // Unused local variables
         String localUnusedVariable = 'Hello';
