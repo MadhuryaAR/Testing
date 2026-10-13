@@ -3,7 +3,7 @@ public class SampleClassNewLatest9 {
     // Used variable
     private String usedName = 'John';
     // Unused variables
-    private Boolean unusedFlag = true;
+
     public void doSomething() {
         String localUsedVariable = usedName;
         // Unused local variables
