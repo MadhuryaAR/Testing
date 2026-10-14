@@ -1,14 +1,18 @@
 public class SampleClassNewLatest15 {
 
     // Used variable
-    public void b() { System.debug('b'); }
-    // Unused local variables
+    private String usedName = 'John';
+
+    // Unused variables
+    private Boolean unusedFlag = true;
+
+    public void doSomething() {
+        String localUsedVariable = usedName;
+
+        // Unused local variables
         String localUnusedVariable = 'Hello';
         Integer localUnusedNumber = 42;
         Boolean localUnusedFlag = false;
-        
-    public void doSomething() {
-        String localUsedVariable = usedName;
 
         System.debug(localUsedVariable);
     }
